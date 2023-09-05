@@ -1,12 +1,22 @@
 class Data{
-    private int dia;
-    private int mes;
+    private int dia {get; set;}
+    private int mes {get; set;}
     private int ano;
 
     public Data(int dia, int mes, int ano)
     {
         this.dia = dia;
         this.mes = mes;
+        this.ano = ano;
+    }
+
+    public int getAno()
+    {
+        return ano;
+    }
+
+    public void setAno(int ano)
+    {
         this.ano = ano;
     }
 
@@ -38,9 +48,9 @@ class Telefone {
 
 class Contato{
     private string email;
-    private string nome;
-    private Data dtNasc;
-    private List<Telefone> telefones;
+    private string nome {get; set;}
+    private Data dtNasc {get; set;}
+    private List<Telefone> telefones {get; set;}
 
     public Contato(string email, string nome, Data dtNasc)
     {
@@ -49,24 +59,36 @@ class Contato{
         this.dtNasc = dtNasc;
     }
 
-    public int getIdade(){
-        return 0;
+    public string getEmail()
+    {
+        return email;
     }
 
-    public void adicionarTelefone(){
+    public void setEmail(string email)
+    {
+        this.email = email;
+    }
 
+    public int getIdade(Contato c){
+        int nasc = c.dtNasc.getAno();
+        int agora = DateTime.Now.Year;
+        return agora-nasc;
+    }
+
+    public void adicionarTelefone(string tel){
+        
     }
 
     public string getTelefonePrincipal(){
         return "";
     }
 
-    public override string ToString()
+    public string ToString(Contato c)
     {
         return "Nome: " + nome +
         "\nEmail: " + email +
-        "Telefone principal: " + getTelefonePrincipal() + 
-        "\nIdade: " + getIdade();
+        "\nTelefone principal: " + getTelefonePrincipal() + 
+        "\nIdade: " + getIdade(c);
     }
 
     public override bool Equals(object obj)

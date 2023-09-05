@@ -1,0 +1,14 @@
+E:\code\ED2\ED2I4-Agenda\bin\Debug\net7.0\agenda.exe
+E:\code\ED2\ED2I4-Agenda\bin\Debug\net7.0\agenda.deps.json
+E:\code\ED2\ED2I4-Agenda\bin\Debug\net7.0\agenda.runtimeconfig.json
+E:\code\ED2\ED2I4-Agenda\bin\Debug\net7.0\agenda.dll
+E:\code\ED2\ED2I4-Agenda\bin\Debug\net7.0\agenda.pdb
+E:\code\ED2\ED2I4-Agenda\obj\Debug\net7.0\agenda.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\ED2\ED2I4-Agenda\obj\Debug\net7.0\agenda.AssemblyInfoInputs.cache
+E:\code\ED2\ED2I4-Agenda\obj\Debug\net7.0\agenda.AssemblyInfo.cs
+E:\code\ED2\ED2I4-Agenda\obj\Debug\net7.0\agenda.csproj.CoreCompileInputs.cache
+E:\code\ED2\ED2I4-Agenda\obj\Debug\net7.0\agenda.dll
+E:\code\ED2\ED2I4-Agenda\obj\Debug\net7.0\refint\agenda.dll
+E:\code\ED2\ED2I4-Agenda\obj\Debug\net7.0\agenda.pdb
+E:\code\ED2\ED2I4-Agenda\obj\Debug\net7.0\agenda.genruntimeconfig.cache
+E:\code\ED2\ED2I4-Agenda\obj\Debug\net7.0\ref\agenda.dll

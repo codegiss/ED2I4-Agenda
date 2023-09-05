@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\gisel\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gisel\\Programming\\ifsp\\4o. semestre\\ED1I4\\21.08\\agenda\\agenda.csproj",
+      "projectUniqueName": "E:\\code\\ED2\\ED2I4-Agenda\\agenda.csproj",
       "projectName": "agenda",
-      "projectPath": "C:\\Users\\gisel\\Programming\\ifsp\\4o. semestre\\ED1I4\\21.08\\agenda\\agenda.csproj",
-      "packagesPath": "C:\\Users\\gisel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gisel\\Programming\\ifsp\\4o. semestre\\ED1I4\\21.08\\agenda\\obj\\",
+      "projectPath": "E:\\code\\ED2\\ED2I4-Agenda\\agenda.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "E:\\code\\ED2\\ED2I4-Agenda\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gisel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
